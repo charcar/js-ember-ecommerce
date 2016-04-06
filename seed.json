@@ -1,0 +1,13 @@
+{
+  "items": [{
+    "title": "Gum",
+    "image": "https://pixabay.com/static/uploads/photo/2014/03/13/15/44/candy-286664_960_720.jpg",
+    "description": "The stickiest around",
+    "cost": 4.50
+    }, {
+    "title": "Scarf",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Paul_Verlaine_2.jpg",
+    "description": "So super soft time",
+    "cost": 12
+    }]
+}
