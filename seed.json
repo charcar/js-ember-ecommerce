@@ -9,5 +9,19 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Paul_Verlaine_2.jpg",
     "description": "So super soft time",
     "cost": 12
+    }],
+
+  "categories": [{
+    "name": "vintage",
+    "items": []
+    }, {
+    "name": "modern",
+    "items": []
+    }, {
+    "name": "lingerie",
+    "items": []
+    }, {
+    "name": "sour",
+    "items": []
     }]
 }
