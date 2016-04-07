@@ -1,4 +1,8 @@
+<div class= "row">
 {{#each model as |product|}}
-  {{product-tile product=product}}
-  {{add-to-cart product=product}}
+  <div class = "product-tile col-sm-5">
+    {{product-tile product=product}}
+    {{add-to-cart product=product}}
+  </div>
 {{/each}}
+</div>

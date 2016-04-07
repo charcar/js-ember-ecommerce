@@ -1,0 +1,16 @@
+@import "bootstrap";
+
+
+.product-tile {
+  background-color: tan;
+  margin: 5px 10px;
+  padding-bottom: 10px;
+  img {
+  max-width: 100%;
+  max-height: 350px;
+  }
+}
+
+body {
+  background-image:url("http://static.vecteezy.com/system/resources/previews/000/106/266/original/pastel-flowers-pattern-background-vector.jpg") ;
+}
