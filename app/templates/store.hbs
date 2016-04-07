@@ -1,8 +1,10 @@
 <div class= "row">
 {{#each model as |product|}}
-  <div class = "product-tile col-sm-5">
-    {{product-tile product=product}}
-    {{add-to-cart product=product}}
+  <div class = "col-md-4">
+    <div class="product-tile">
+      {{product-tile product=product}}
+      {{add-to-cart product=product}}
+    </div>
   </div>
 {{/each}}
 </div>

@@ -1,8 +1,14 @@
 <h2>Admin Panel</h2>
 {{new-item saveItem='saveItem'}}
 
+<div class="row">
 {{#each model as |item|}}
-  {{item-detail item=item}}
-  {{update-item item=item updateItem='updateItem'}}
-  {{remove-item item=item destroyItem='destroyItem'}}
+<div class="col-sm-5">
+  <div class="item-detail">
+    {{item-detail item=item}}
+    {{update-item item=item updateItem='updateItem'}}
+    {{remove-item item=item destroyItem='destroyItem'}}
+  </div>
+</div>
 {{/each}}
+</div>
