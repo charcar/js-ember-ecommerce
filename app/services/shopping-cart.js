@@ -7,7 +7,7 @@ export default Ember.Service.extend({
     this.get('items').pushObject(item);
   },
   remove(item) {
-    this.get('items').removeObject(item);
+    this.get('items').popObject(item);
   },
 
   totalCost: Ember.computed('items.[]', function(){

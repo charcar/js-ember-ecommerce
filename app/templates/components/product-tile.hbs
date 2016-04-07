@@ -1,7 +1,8 @@
 <div class="product-tile">
-  {{#link-to 'item' product.id}}<h3>{{product.title}}</h3>{{/link-to}}
+  <h3>{{product.title}}</h3>
   <img src="{{product.image}}">
-  <h4>{{product.cost}}</h4>
+  <h4>${{product.cost}}</h4>
+  {{#link-to 'item' product.id}}<h5>See Product Details</h5>{{/link-to}}
 
   <button {{action 'addToCart' product}}>Add to Cart</button>
 </div>

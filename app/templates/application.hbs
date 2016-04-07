@@ -4,14 +4,14 @@
       <a class="navbar-brand">{{#link-to 'index'}}Clothing Land{{/link-to}}</a>
     </div>
     <div>
-      <div class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right">
 
-        <a>{{#link-to 'index'}}Home{{/link-to}}</a>
-        <a>{{#link-to 'store'}}Store{{/link-to}}</a>
-        <a>{{#link-to 'cart'}}Cart{{/link-to}}</a>
-        <a>{{#link-to 'admin'}}Admin{{/link-to}}</a>
+        <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+        <li>{{#link-to 'store'}}Store{{/link-to}}</li>
+        <li>{{#link-to 'cart'}}{{cart-total}}{{/link-to}}</li>
+        <li>{{#link-to 'admin'}}Admin{{/link-to}}</li>
 
-      </div>
+      </ul>
     </div>
   </div>
 </nav>

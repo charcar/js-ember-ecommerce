@@ -14,7 +14,7 @@ export default Ember.Route.extend({
     },
     updateItem(item, params) {
       Object.keys(params).forEach(function(key) {
-        if((params[key]!==undefined) && (params[key]!==NaN)) {
+        if(params[key]!==undefined) {
           item.set(key,params[key]);
         }
       });
