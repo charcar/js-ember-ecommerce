@@ -10,6 +10,9 @@ export default Ember.Service.extend({
     this.get('items').removeAt(index);
   },
 
+  cartCount: Ember.computed('items.[]', function(){
+    return this.get('items.length');
+  }),
   totalCost: Ember.computed('items.[]', function(){
     var allCost = 0;
     for (var i = 0; i < this.get('items.length'); i++) {
