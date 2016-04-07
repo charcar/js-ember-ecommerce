@@ -26,7 +26,7 @@ body {
 
 .review {
   background-color: rgba(255, 255, 255, .85);
-  padding: 1px 6px;
+  padding: 1px 18px;
   margin: 11px;
   max-width: 400px;
 }
@@ -48,10 +48,11 @@ body {
 }
 
 #cartTotal {
-  background-color: rgba(204, 204, 255, .85);
+  background-color: rgba(204, 204, 255, .70);
   max-width: 300px;
   font-size: 3rem;
-  padding: 1px 4px;
+  padding: 3px 4px;
+  border-radius: 4px;
 }
 
 .count {
