@@ -3,5 +3,6 @@
 
 {{#each model as |item|}}
   {{item-detail item=item}}
+  {{update-item item=item updateItem='updateItem'}}
   {{remove-item item=item destroyItem='destroyItem'}}
 {{/each}}

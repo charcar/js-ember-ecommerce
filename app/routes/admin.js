@@ -11,6 +11,14 @@ export default Ember.Route.extend({
     },
     destroyItem(item) {
       item.destroyRecord();
+    },
+    updateItem(item, params) {
+      Object.keys(params).forEach(function(key) {
+        if((params[key]!==undefined) && (params[key]!==NaN)) {
+          item.set(key,params[key]);
+        }
+      });
+      item.save();
     }
   }
 });
