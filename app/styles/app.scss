@@ -36,11 +36,29 @@ body {
   flex-direction: row;
 }
 
+.cartDisplay {
+  img {
+    height: 180px;
+    max-width: 90%;
+  }
+  margin-bottom: 10px;
+  background-color: lighten(blue, 40%);
+  text-align: center;
+  padding: 5px;
+}
+
+#cartTotal {
+  background-color: rgba(204, 204, 255, .85);
+  max-width: 300px;
+  font-size: 3rem;
+  padding: 1px 4px;
+}
+
 .count {
   background-color: black;
   color: white;
-  border-radius: 100%;
-  padding: 1px 3px;
+  border-radius: 70%;
+  padding: 1px 4px;
 }
 
 .navbar-brand {

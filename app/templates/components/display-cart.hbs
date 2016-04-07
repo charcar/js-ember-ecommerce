@@ -1,4 +1,12 @@
+<div class="row">
 {{#each shoppingCart.items as |item index|}}
-  <h4>{{item.title}} -- {{item.cost}}</h4>
-  <button {{action 'removeFromCart' index}}>Remove</button>
+  <div class="col-sm-2">
+    <div class= "cartDisplay">
+      <img src="{{item.image}}">
+      <h4>{{item.title}}</h4>
+      <h4>$ {{item.cost}}</h4>
+      <button {{action 'removeFromCart' index}}>Remove</button>
+    </div>
+  </div>
 {{/each}}
+</div>
